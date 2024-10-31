@@ -1,0 +1,236 @@
+{
+  "permissions": [
+    {
+            "type": "SCOPE",
+            "value": "TE_ADMIN::root",
+            "name": "TE Admin Root",
+            "description": ""
+    },
+    {
+            "type": "SCOPE",
+            "value": "TE_ADMIN::super",
+            "name": "TE Admin Super",
+            "description": ""
+    },
+    {
+            "type": "SCOPE",
+            "value": "TE_ADMIN::admin",
+            "name": "TE Admin Admin",
+            "description": ""
+    },
+    {
+            "type": "SCOPE",
+            "value": "TE_ADMIN::user",
+            "name": "TE Admin User",
+            "description": ""
+    },
+    {
+            "type": "SCOPE",
+            "value": "TE_CORE::super",
+            "name": "TE Core Super",
+            "description": ""
+    },
+    {
+            "type": "SCOPE",
+            "value": "TE_CORE::admin",
+            "name": "TE Core Admin",
+            "description": ""
+    },
+    {
+            "type": "SCOPE",
+            "value": "TE_CORE::user",
+            "name": "TE Core User",
+            "description": ""
+    },
+    {
+            "type": "SCOPE",
+            "value": "DEBIT::admin",
+            "name": "Debit Admin",
+            "description": ""
+    },
+    {
+            "type": "SCOPE",
+            "value": "STATISTICS::admin",
+            "name": "Statistics Admin",
+            "description": ""
+    },
+    {
+            "type": "SCOPE",
+            "value": "TE_PLAN::super",
+            "name": "TE Plan Super",
+            "description": ""
+    },
+    {
+            "type": "SCOPE",
+            "value": "TE_PLAN::admin",
+            "name": "TE Plan Admin",
+            "description": ""
+    },
+    {
+            "type": "SCOPE",
+            "value": "TE_PLAN::user",
+            "name": "TE Plan User",
+            "description": ""
+    },
+    {
+            "type": "SCOPE",
+            "value": "TE_VIEWER::super",
+            "name": "TE Viewer Super",
+            "description": ""
+    },
+    {
+            "type": "SCOPE",
+            "value": "TE_VIEWER::admin",
+            "name": "TE Viewer Admin",
+            "description": ""
+    },
+    {
+            "type": "SCOPE",
+            "value": "TE_VIEWER::user",
+            "name": "TE Viewer User",
+            "description": ""
+    },
+    {
+            "type": "SCOPE",
+            "value": "TE_RESERVE::super",
+            "name": "TE Reserve Super",
+            "description": ""
+    },
+    {
+            "type": "SCOPE",
+            "value": "TE_RESERVE::admin",
+            "name": "TE Reserve Admin",
+            "description": ""
+    },
+    {
+            "type": "SCOPE",
+            "value": "TE_RESERVE::user",
+            "name": "TE Reserve User",
+            "description": ""
+    },
+    {
+            "type": "SCOPE",
+            "value": "SERVICE_ACCOUNT::root",
+            "name": "Service Account Root",
+            "description": ""
+    },
+    {
+            "type": "SCOPE",
+            "value": "TE_VIEWER::readOnly",
+            "name": "TE Viewer Read Only",
+            "description": ""
+    },
+    {
+            "type": "APP_PERMISSION",
+            "value": "ADMIN::executeCulling",
+            "name": "TE Admin Execute Culling",
+            "description": "Scope level: Admin",
+            "requiredScopeLevel": "ADMIN"
+    },
+    {
+            "type": "APP_PERMISSION",
+            "value": "ADMIN::manageAuthConfigs",
+            "name": "TE Admin Manage Auth Configurations",
+            "description": "Scope level: Admin",
+            "requiredScopeLevel": "ADMIN"
+    },
+    {
+            "type": "APP_PERMISSION",
+            "value": "ADMIN::manageOrgs",
+            "name": "TE Admin Manage Organizations",
+            "description": "Level: Super",
+            "requiredScopeLevel": "SUPER"
+    },
+    {
+            "type": "APP_PERMISSION",
+            "value": "ADMIN::manageRoles",
+            "name": "TE Admin Manage Roles",
+            "description": "Level: Super",
+            "requiredScopeLevel": "SUPER"
+    },
+    {
+            "type": "APP_PERMISSION",
+            "value": "ADMIN::readSuper",
+            "name": "TE Admin Read Super",
+            "description": "Level: Super",
+            "requiredScopeLevel": "SUPER"
+    },
+    {
+            "type": "APP_PERMISSION",
+            "value": "ADMIN::manageTimeRules",
+            "name": "TE Admin Manage Time Rules",
+            "description": "Level: Admin",
+            "requiredScopeLevel": "ADMIN"
+    },
+    {
+            "type": "APP_PERMISSION",
+            "value": "ADMIN::manageUsers",
+            "name": "TE Admin Manage Users",
+            "description": "Level: Admin",
+            "requiredScopeLevel": "ADMIN"
+    },
+    {
+            "type": "APP_PERMISSION",
+            "value": "ADMIN::viewCullingReport",
+            "name": "TE Admin View Culling Report",
+            "description": "Level: Admin",
+            "requiredScopeLevel": "ADMIN"
+    },
+    {
+            "type": "APP_PERMISSION",
+            "value": "CORE::activityManager",
+            "name": "TE Core Activity Manager",
+            "description": "Level: Admin",
+            "requiredScopeLevel": "ADMIN"
+    },
+    {
+            "type": "APP_PERMISSION",
+            "value": "CORE::deleteCancellations",
+            "name": "TE Core Delete Cancellations",
+            "description": "Level: Super",
+            "requiredScopeLevel": "SUPER"
+    },
+    {
+            "type": "APP_PERMISSION",
+            "value": "CORE::noTimeRules",
+            "name": "TE Core No Time Rules",
+            "description": "Level: Admin",
+            "requiredScopeLevel": "ADMIN"
+    },
+    {
+            "type": "APP_PERMISSION",
+            "value": "CORE::setOrganizationsOnReservations",
+            "name": "TE Core set Organizations on Reservations",
+            "description": "Level: Admin",
+            "requiredScopeLevel": "ADMIN"
+    },
+    {
+            "type": "APP_PERMISSION",
+            "value": "CORE::teExam",
+            "name": "TE Core Exam",
+            "description": "Level: Admin",
+            "requiredScopeLevel": "ADMIN"
+    },
+    {
+            "type": "APP_PERMISSION",
+            "value": "CORE::manageViews",
+            "name": "TE Core Manage Views",
+            "description": "Level: Admin",
+            "requiredScopeLevel": "ADMIN"
+    },
+    {
+            "type": "APP_PERMISSION",
+            "value": "CORE::managePeriods",
+            "name": "TE Core Manage Periods",
+            "description": "Level: Admin",
+            "requiredScopeLevel": "ADMIN"
+    },
+    {
+            "type": "APP_PERMISSION",
+            "value": "RESERVE::noTimeRules",
+            "name": "TE Reserve No Time Rules",
+            "description": "Level: Admin",
+            "requiredScopeLevel": "ADMIN"
+    }
+  ]
+}
